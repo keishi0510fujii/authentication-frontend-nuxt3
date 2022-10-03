@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  web:
+    build:
+      context: .
+      target: ${TARGET:-dev}
+    tty: true
+    stdin_open: true
+    image: authentication_frontend_nuxt3:${TAG:-dev}
+    container_name: authentication_frontend_nuxt3
+    ports:
+      - "3001:3000" ## nuxt
+      - "6007:6006" ## storybook
+      - "24679:24678" ## リロードエラーの対策
+    volumes:
+      - ./app:/app
+    

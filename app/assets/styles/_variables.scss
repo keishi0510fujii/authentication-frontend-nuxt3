@@ -1,0 +1,45 @@
+//  color
+$primaryColor: #3366ff;
+$secondaryColor: #aeaeae;
+$lightGray: #e6e5df;
+$gray: #333333;
+$defaultTextColor: black;
+
+//  button
+$buttonPadding: 5px 8px;
+$buttonFontSize: 16px;
+$hoverButtonRate: 1.2em;
+$primaryRadius: 30px;
+
+//  form
+$maxFormWidth: 600px;
+$formMargin: 15px auto;
+
+//  input field
+$inputFieldHeight: 50px;
+$inputFieldPadding: 5px 8px;
+$inputFieldRadius: 3px;
+$inputFieldBorder: 1px solid $secondaryColor;
+$inputFieldFontSize: 16px;
+$inputBlockMargin: 30px auto;
+
+
+//  page title
+$pageTitleMargin: 0 auto 0 auto;
+$pageTitleFontSize: 36px;
+
+//  header
+$headerHeight: 80px;
+
+//  footer
+$footerHeight: 240px;
+
+//  main
+$defaultMainMarginTop: $headerHeight;
+$mainPaddingTop: 15px;
+
+//  navigation
+$defaultNavigationFontSize: 16px;
+
+//  contents title
+$contentsTitleFontSize: 24px;

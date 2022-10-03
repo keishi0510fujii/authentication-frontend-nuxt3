@@ -1,0 +1,4 @@
+./app/.storybook
+./app/.stories
+./app/node_modules
+./app/.nuxt
