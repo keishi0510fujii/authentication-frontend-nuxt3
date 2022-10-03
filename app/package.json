@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "storybook": "start-storybook -p 6006",
+    "lint": "eslint --ext .ts,.vue --ignore-path .eslintignore .",
+    "lint-fix": "eslint --fix --ext .ts,.vue --ignore-path .eslintignore ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "nuxt": "3.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.12-27736489.2e080c2",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/builder-vite": "^0.1.37",
+    "@storybook/vue3": "^6.5.12",
+    "@vue/test-utils": "^2.0.2",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "jsdom": "^20.0.0",
+    "sass": "^1.55.0",
+    "unplugin-auto-import": "^0.11.2",
+    "vitest": "^0.23.4"
+  }
+}
